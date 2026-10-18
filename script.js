@@ -45,3 +45,11 @@ function resetGuest() {
     count2 = 0
     countGuest.innerText = count2
 }
+
+
+function restart() {
+    count1 = 0
+    count2 = 0
+    countHome.innerText = 0
+    countGuest.innerText = 0
+}
